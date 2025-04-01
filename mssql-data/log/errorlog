@@ -252,3 +252,4 @@
 2025-03-31 20:18:52.35 Logon       Error: 18456, Severity: 14, State: 8.
 2025-03-31 20:18:52.35 Logon       Login failed for user 'sa'. Reason: Password did not match that for the login provided. [CLIENT: 192.168.65.1]
 2025-03-31 22:48:15.41 spid64s     sp_server_diangostics encountered a long delay that was 2.5 times more than the repeat interval between two consecutive diagnostics result generations. The repeat interval: 300000000, the elapsed time of this diagnostics result generation: 477, the elapsed time between the latest two diagnostics result generations: 788125958.
+2025-04-01 02:45:58.68 spid64s     sp_server_diangostics encountered a long delay that was 2.5 times more than the repeat interval between two consecutive diagnostics result generations. The repeat interval: 300000000, the elapsed time of this diagnostics result generation: 506, the elapsed time between the latest two diagnostics result generations: 1743145981.
