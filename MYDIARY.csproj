@@ -7,16 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Use compatible stable versions of the packages for .NET 9.0 -->
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" /> <!-- Stable version for .NET 9.0 -->
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+    <!-- Ensure all packages use the latest stable version -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" /> 
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.3">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" /> <!-- Stable version for .NET 9.0 -->
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0" /> <!-- Stable version for .NET 9.0 -->
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" /> <!-- Stable version for .NET 9.0 -->
-    <PackageReference Include="System.Text.Json" Version="9.0.0" /> <!-- Stable version for .NET 9.0 -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.3" />
+    <PackageReference Include="System.Text.Json" Version="9.0.3" />
   </ItemGroup>
 
 </Project>

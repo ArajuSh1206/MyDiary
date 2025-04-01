@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 namespace MYDIARY.Models
 {
     public class DiaryEntry
@@ -9,7 +10,7 @@ namespace MYDIARY.Models
         [Required]
         public string Content { get; set; } = string.Empty;
         [Required]
-        public DateTime CreatedAt { get; set; } = DateTime.now;
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
     }
 
