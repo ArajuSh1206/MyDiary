@@ -44,6 +44,29 @@ namespace MYDIARY.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("DiaryEntries");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Content = "Went on a long walk with Jenn.",
+                            CreatedAt = new DateTime(2024, 3, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Went on a walk"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Content = "Bake some double chocolate brownies.",
+                            CreatedAt = new DateTime(2024, 3, 25, 10, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Baked brownies"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Content = "Went for movies with Jenn.",
+                            CreatedAt = new DateTime(2024, 4, 1, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Went for movies"
+                        });
                 });
 #pragma warning restore 612, 618
         }
