@@ -1,5 +1,7 @@
 html {
   font-size: 14px;
+  position: relative;
+  min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -8,15 +10,175 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+/* Focus styles */
+.btn:focus, 
+.btn:active:focus, 
+.btn-link.nav-link:focus, 
+.form-control:focus, 
+.form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* Base body layout */
 body {
   margin-bottom: 60px;
+  background-color: #fff; /* default white bg for non-welcome pages */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ----------------------------------------- */
+/* Scoped styles for the Welcome page only */
+/* ----------------------------------------- */
+
+.welcome-container {
+  background-color: #fff0f5; /* soft pink bg */
+  min-height: calc(100vh - 60px); /* leaves space for navbar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.welcome-box {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 3rem 4rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  color: #e91e63;
+  margin-bottom: 1rem;
+}
+
+.welcome-subtext {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.start-button {
+  background-color: #e91e63;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 9999px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #d81b60;
+}
+
+/* ----------------------------------------- */
+/* Diary Entries Table Styling */
+/* ----------------------------------------- */
+
+.diary-entries-container {
+  padding: 3rem 2rem;
+  background-color: #fff0f5;
+  min-height: calc(100vh - 60px);
+}
+
+.diary-heading {
+  font-size: 2rem;
+  color: #e91e63;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+/* Wrap around Bootstrap table */
+.diary-table-wrapper {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Table Customization */
+.custom-diary-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.75rem;
+}
+
+.custom-diary-table thead th {
+  background: #ffe4ec;
+  color: #333;
+  padding: 0.75rem;
+  border: none;
+  font-weight: 500;
+  text-align: left;
+}
+
+.custom-diary-table tbody tr {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.custom-diary-table tbody td {
+  padding: 0.75rem;
+  vertical-align: middle;
+  color: #444;
+  border-top: 1px solid #f8d0de;
+}
+
+.entry-action {
+  color: #e91e63;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 0.25rem;
+  transition: color 0.2s ease;
+}
+
+.entry-action:hover {
+  color: #d81b60;
+  text-decoration: underline;
+}
+
+/* ----------------------------------------- */
+/* Privacy Policy Page Styling */
+/* ----------------------------------------- */
+
+.privacy-container {
+  background-color: #fff0f5;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.privacy-box {
+  background-color: #ffffff;
+  padding: 2.5rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.privacy-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 1.5rem;
+}
+
+.privacy-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
 }

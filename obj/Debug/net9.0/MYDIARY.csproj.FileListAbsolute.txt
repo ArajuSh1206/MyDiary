@@ -106,7 +106,6 @@
 /Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/scopedcss/bundle/MYDIARY.styles.css
 /Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/scopedcss/projectbundle/MYDIARY.bundle.scp.css
-/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-c2tiyv64ts.gz
 /Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/t7nwha4mzx-61n19gt1b8.gz
 /Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/3n70d0tud0-xtxxf3hu2r.gz
 /Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/mjxtgphwsy-agp80tu62r.gz
@@ -236,3 +235,4 @@
 /Users/arajusharma/Desktop/untitled folder/MyDiary/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/arajusharma/Desktop/untitled folder/MyDiary/bin/Debug/net9.0/DotNetEnv.dll
 /Users/arajusharma/Desktop/untitled folder/MyDiary/bin/Debug/net9.0/Sprache.dll
+/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-01gbhlnw46.gz

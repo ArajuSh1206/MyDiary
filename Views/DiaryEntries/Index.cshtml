@@ -1,25 +1,33 @@
 @model List<DiaryEntry>
 
-<div class = "table-responsive">
-    <table class = "table table-striped table-hover">
-        <thead>
-            <tr>
-                <th> Title </th>
-                <th> Content </th>
-                <th> Date </th>
-                <th> Edit </th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(var entry in Model)
-            {
+<div class="diary-entries-container">
+    <h2 class="diary-heading">Your Diary Entries</h2>
+
+    <div class="table-responsive diary-table-wrapper">
+        <table class="table custom-diary-table">
+            <thead>
                 <tr>
-                    <td>@entry.Title</td>
-                    <td>@entry.Content</td>
-                    <td>@entry.CreatedAt</td>
-                    <td>Edit or delete!</td>
+                    <th>Title</th>
+                    <th>Content</th>
+                    <th>Date</th>
+                    <th>Actions</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var entry in Model)
+                {
+                    <tr>
+                        <td>@entry.Title</td>
+                        <td>@entry.Content</td>
+                        <td>@entry.CreatedAt.ToString("MMM dd, yyyy")</td>
+                        <td>
+                            <!-- Replace with your actual edit/delete buttons or links -->
+                            <a class="entry-action" href="#">Edit</a> |
+                            <a class="entry-action" href="#">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>
