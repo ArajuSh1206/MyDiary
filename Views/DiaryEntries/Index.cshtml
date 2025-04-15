@@ -1,7 +1,14 @@
 @model List<DiaryEntry>
 
 <div class="diary-entries-container">
-    <h2 class="diary-heading">Your Diary Entries</h2>
+    <div class="diary-topbar">
+        <h5 class="fw-bold">Write Entries</h5>
+        <a class="btn btn-primary mt-2" asp-controller="DiaryEntries" asp-action="WriteEntries">
+            Create new Diary entry
+        </a>
+    </div>
+
+    <h3 class="diary-heading">Your Diary Entries</h3>
 
     <div class="table-responsive diary-table-wrapper">
         <table class="table custom-diary-table">
@@ -19,9 +26,8 @@
                     <tr>
                         <td>@entry.Title</td>
                         <td>@entry.Content</td>
-                        <td>@entry.CreatedAt.ToString("MMM dd, yyyy")</td>
+                        <td>@entry.CreatedAt.ToString("MMM dd, yyyy - hh:mm tt")</td>
                         <td>
-                            <!-- Replace with your actual edit/delete buttons or links -->
                             <a class="entry-action" href="#">Edit</a> |
                             <a class="entry-action" href="#">Delete</a>
                         </td>

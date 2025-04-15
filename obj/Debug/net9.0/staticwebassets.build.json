@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g53pEEqj4odXE3oYzyCEl1L0Cd1CcQJ9u4d6hC+SIsI=",
+  "Hash": "xwym1B8JVBV+zQlhIuEWK4LuFbph9jVGaAWRsomIg64=",
   "Source": "MYDIARY",
   "BasePath": "_content/MYDIARY",
   "Mode": "Default",
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-01gbhlnw46.gz",
+      "Identity": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-yvkihad1rn.gz",
       "SourceId": "MYDIARY",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/MYDIARY",
-      "RelativePath": "css/site#[.{fingerprint=01gbhlnw46}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=yvkihad1rn}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "67o8ar8ak0",
-      "Integrity": "gsKw/G/VD21RmdShvVk0U9GzoQlDnZvmH7DMltFah5I=",
+      "Fingerprint": "zhyf6hz0z6",
+      "Integrity": "mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css"
@@ -1354,8 +1354,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "01gbhlnw46",
-      "Integrity": "HEXWuknXMW77K3bpXiiBuNDAXnusJ3q4ylF4Qs77EXM=",
+      "Fingerprint": "yvkihad1rn",
+      "Integrity": "PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -2602,13 +2602,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.01gbhlnw46.css",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-01gbhlnw46.gz",
+      "Route": "css/site.css",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-yvkihad1rn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000887311446"
+          "Quality": "0.000778816199"
         }
       ],
       "ResponseHeaders": [
@@ -2618,19 +2618,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1126"
+          "Value": "1283"
         },
         {
           "Name": "ETag",
-          "Value": "\"gsKw/G/VD21RmdShvVk0U9GzoQlDnZvmH7DMltFah5I=\""
+          "Value": "\"mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 23:32:10 GMT"
+          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2646,26 +2646,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"HEXWuknXMW77K3bpXiiBuNDAXnusJ3q4ylF4Qs77EXM=\""
+          "Value": "W/\"PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "01gbhlnw46"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-HEXWuknXMW77K3bpXiiBuNDAXnusJ3q4ylF4Qs77EXM="
+          "Value": "sha256-PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw="
         }
       ]
     },
     {
-      "Route": "css/site.01gbhlnw46.css",
+      "Route": "css/site.css",
       "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2675,7 +2667,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3697"
+          "Value": "4953"
         },
         {
           "Name": "Content-Type",
@@ -2683,11 +2675,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HEXWuknXMW77K3bpXiiBuNDAXnusJ3q4ylF4Qs77EXM=\""
+          "Value": "\"PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 23:32:10 GMT"
+          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-yvkihad1rn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.yvkihad1rn.css",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-yvkihad1rn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000778816199"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1283"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yvkihad1rn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.yvkihad1rn.css",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2697,7 +2834,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "01gbhlnw46"
+          "Value": "yvkihad1rn"
         },
         {
           "Name": "label",
@@ -2705,13 +2842,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HEXWuknXMW77K3bpXiiBuNDAXnusJ3q4ylF4Qs77EXM="
+          "Value": "sha256-PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw="
         }
       ]
     },
     {
-      "Route": "css/site.01gbhlnw46.css.gz",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-01gbhlnw46.gz",
+      "Route": "css/site.yvkihad1rn.css.gz",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-yvkihad1rn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2720,7 +2857,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1126"
+          "Value": "1283"
         },
         {
           "Name": "Content-Type",
@@ -2728,11 +2865,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gsKw/G/VD21RmdShvVk0U9GzoQlDnZvmH7DMltFah5I=\""
+          "Value": "\"mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 23:32:10 GMT"
+          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2750,7 +2887,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "01gbhlnw46"
+          "Value": "yvkihad1rn"
         },
         {
           "Name": "label",
@@ -2758,144 +2895,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gsKw/G/VD21RmdShvVk0U9GzoQlDnZvmH7DMltFah5I="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-01gbhlnw46.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000887311446"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1126"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gsKw/G/VD21RmdShvVk0U9GzoQlDnZvmH7DMltFah5I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 23:32:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"HEXWuknXMW77K3bpXiiBuNDAXnusJ3q4ylF4Qs77EXM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HEXWuknXMW77K3bpXiiBuNDAXnusJ3q4ylF4Qs77EXM="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3697"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HEXWuknXMW77K3bpXiiBuNDAXnusJ3q4ylF4Qs77EXM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 23:32:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HEXWuknXMW77K3bpXiiBuNDAXnusJ3q4ylF4Qs77EXM="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-01gbhlnw46.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1126"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gsKw/G/VD21RmdShvVk0U9GzoQlDnZvmH7DMltFah5I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 23:32:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gsKw/G/VD21RmdShvVk0U9GzoQlDnZvmH7DMltFah5I="
+          "Value": "sha256-mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA="
         }
       ]
     },

@@ -1,0 +1,25 @@
+@model DiaryEntry 
+
+@{
+    ViewData["Title"] = "WriteEntries";
+}
+
+<div class="write-entry-container">
+    <div class="write-entry-box">
+        <h3 class="write-entry-heading">Create New Diary Entry</h3>
+
+        <form asp-action="WriteEntries" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="Title" class="form-label">Title</label>
+                <input asp-for="Title" class="form-control" placeholder="Enter a title" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Content" class="form-label">Content</label>
+                <textarea asp-for="Content" class="form-control" rows="5" placeholder="Write your entry..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save Entry</button>
+        </form>
+    </div>
+</div>
