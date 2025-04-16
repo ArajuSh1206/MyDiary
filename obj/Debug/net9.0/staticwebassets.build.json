@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QNt273UWNVzrTTYuLJivkrBbY+FPPaLKUuakE0hW6lM=",
+  "Hash": "lvZLINXMsKHVLaULCWMALTI5A+cAjfZhtdxjYXsPvzc=",
   "Source": "MYDIARY",
   "BasePath": "_content/MYDIARY",
   "Mode": "Default",
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-0caxvfakvw.gz",
+      "Identity": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-6gmvw7qeee.gz",
       "SourceId": "MYDIARY",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/MYDIARY",
-      "RelativePath": "css/site#[.{fingerprint=0caxvfakvw}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=6gmvw7qeee}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "gp2v0rnpeh",
-      "Integrity": "jOTp+oe5vMaWGZTwHfCDbbkP8IrXZ3bLb9U/4D5GlUs=",
+      "Fingerprint": "695kxfjxrx",
+      "Integrity": "miSf+ww294NsI3fVC0X1TGV3ZvWR5m+WkSvqa/L+iiY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css"
@@ -1354,8 +1354,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0caxvfakvw",
-      "Integrity": "kG209pH2thg4QnyWWLe1uj52B5T+O03r2biV36m8jmE=",
+      "Fingerprint": "6gmvw7qeee",
+      "Integrity": "Zj/K1yz43yNlNrLto+fwTpCmshMG8t5ZDZkBvFeU3PI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -2602,13 +2602,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.0caxvfakvw.css",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-0caxvfakvw.gz",
+      "Route": "css/site.6gmvw7qeee.css",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-6gmvw7qeee.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000659630607"
+          "Quality": "0.000597014925"
         }
       ],
       "ResponseHeaders": [
@@ -2618,15 +2618,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1515"
+          "Value": "1674"
         },
         {
           "Name": "ETag",
-          "Value": "\"jOTp+oe5vMaWGZTwHfCDbbkP8IrXZ3bLb9U/4D5GlUs=\""
+          "Value": "\"miSf+ww294NsI3fVC0X1TGV3ZvWR5m+WkSvqa/L+iiY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 20:38:33 GMT"
+          "Value": "Wed, 16 Apr 2025 22:00:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2646,13 +2646,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kG209pH2thg4QnyWWLe1uj52B5T+O03r2biV36m8jmE=\""
+          "Value": "W/\"Zj/K1yz43yNlNrLto+fwTpCmshMG8t5ZDZkBvFeU3PI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0caxvfakvw"
+          "Value": "6gmvw7qeee"
         },
         {
           "Name": "label",
@@ -2660,12 +2660,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kG209pH2thg4QnyWWLe1uj52B5T+O03r2biV36m8jmE="
+          "Value": "sha256-Zj/K1yz43yNlNrLto+fwTpCmshMG8t5ZDZkBvFeU3PI="
         }
       ]
     },
     {
-      "Route": "css/site.0caxvfakvw.css",
+      "Route": "css/site.6gmvw7qeee.css",
       "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2675,7 +2675,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6239"
+          "Value": "7024"
         },
         {
           "Name": "Content-Type",
@@ -2683,11 +2683,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kG209pH2thg4QnyWWLe1uj52B5T+O03r2biV36m8jmE=\""
+          "Value": "\"Zj/K1yz43yNlNrLto+fwTpCmshMG8t5ZDZkBvFeU3PI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 20:38:33 GMT"
+          "Value": "Wed, 16 Apr 2025 22:00:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2697,7 +2697,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0caxvfakvw"
+          "Value": "6gmvw7qeee"
         },
         {
           "Name": "label",
@@ -2705,13 +2705,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kG209pH2thg4QnyWWLe1uj52B5T+O03r2biV36m8jmE="
+          "Value": "sha256-Zj/K1yz43yNlNrLto+fwTpCmshMG8t5ZDZkBvFeU3PI="
         }
       ]
     },
     {
-      "Route": "css/site.0caxvfakvw.css.gz",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-0caxvfakvw.gz",
+      "Route": "css/site.6gmvw7qeee.css.gz",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-6gmvw7qeee.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2720,7 +2720,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1515"
+          "Value": "1674"
         },
         {
           "Name": "Content-Type",
@@ -2728,11 +2728,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jOTp+oe5vMaWGZTwHfCDbbkP8IrXZ3bLb9U/4D5GlUs=\""
+          "Value": "\"miSf+ww294NsI3fVC0X1TGV3ZvWR5m+WkSvqa/L+iiY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 20:38:33 GMT"
+          "Value": "Wed, 16 Apr 2025 22:00:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2750,7 +2750,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0caxvfakvw"
+          "Value": "6gmvw7qeee"
         },
         {
           "Name": "label",
@@ -2758,18 +2758,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jOTp+oe5vMaWGZTwHfCDbbkP8IrXZ3bLb9U/4D5GlUs="
+          "Value": "sha256-miSf+ww294NsI3fVC0X1TGV3ZvWR5m+WkSvqa/L+iiY="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-0caxvfakvw.gz",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-6gmvw7qeee.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000659630607"
+          "Quality": "0.000597014925"
         }
       ],
       "ResponseHeaders": [
@@ -2779,15 +2779,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1515"
+          "Value": "1674"
         },
         {
           "Name": "ETag",
-          "Value": "\"jOTp+oe5vMaWGZTwHfCDbbkP8IrXZ3bLb9U/4D5GlUs=\""
+          "Value": "\"miSf+ww294NsI3fVC0X1TGV3ZvWR5m+WkSvqa/L+iiY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 20:38:33 GMT"
+          "Value": "Wed, 16 Apr 2025 22:00:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2807,13 +2807,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kG209pH2thg4QnyWWLe1uj52B5T+O03r2biV36m8jmE=\""
+          "Value": "W/\"Zj/K1yz43yNlNrLto+fwTpCmshMG8t5ZDZkBvFeU3PI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kG209pH2thg4QnyWWLe1uj52B5T+O03r2biV36m8jmE="
+          "Value": "sha256-Zj/K1yz43yNlNrLto+fwTpCmshMG8t5ZDZkBvFeU3PI="
         }
       ]
     },
@@ -2828,7 +2828,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6239"
+          "Value": "7024"
         },
         {
           "Name": "Content-Type",
@@ -2836,11 +2836,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kG209pH2thg4QnyWWLe1uj52B5T+O03r2biV36m8jmE=\""
+          "Value": "\"Zj/K1yz43yNlNrLto+fwTpCmshMG8t5ZDZkBvFeU3PI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 20:38:33 GMT"
+          "Value": "Wed, 16 Apr 2025 22:00:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2850,13 +2850,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kG209pH2thg4QnyWWLe1uj52B5T+O03r2biV36m8jmE="
+          "Value": "sha256-Zj/K1yz43yNlNrLto+fwTpCmshMG8t5ZDZkBvFeU3PI="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-0caxvfakvw.gz",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-6gmvw7qeee.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2865,7 +2865,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1515"
+          "Value": "1674"
         },
         {
           "Name": "Content-Type",
@@ -2873,11 +2873,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jOTp+oe5vMaWGZTwHfCDbbkP8IrXZ3bLb9U/4D5GlUs=\""
+          "Value": "\"miSf+ww294NsI3fVC0X1TGV3ZvWR5m+WkSvqa/L+iiY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 20:38:33 GMT"
+          "Value": "Wed, 16 Apr 2025 22:00:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2895,7 +2895,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jOTp+oe5vMaWGZTwHfCDbbkP8IrXZ3bLb9U/4D5GlUs="
+          "Value": "sha256-miSf+ww294NsI3fVC0X1TGV3ZvWR5m+WkSvqa/L+iiY="
         }
       ]
     },

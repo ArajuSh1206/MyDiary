@@ -16,33 +16,33 @@ html {
 .btn-link.nav-link:focus, 
 .form-control:focus, 
 .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #2e8b57;
 }
 
-/* Override Bootstrap's primary button to match your theme */
+/* Override Bootstrap's primary button to match green theme */
 .btn-primary {
-  background-color: #e91e63;
-  border-color: #e91e63;
+  background-color: #2e8b57; /* Forest green */
+  border-color: #2e8b57;
   color: white;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #d81b60 !important;
-  border-color: #d81b60 !important;
+  background-color: #1b7340 !important; /* Darker forest green */
+  border-color: #1b7340 !important;
   color: white !important;
 }
 
-/* Override Bootstrap's danger button to match your theme */
+/* Override Bootstrap's danger button to match green theme */
 .btn-danger {
-  background-color: #f8d0de;
-  border-color: #f8d0de;
-  color: #e91e63;
+  background-color: #dff0d8; /* Light green */
+  border-color: #dff0d8;
+  color: #2e8b57;
 }
 
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
-  background-color: #f3b3c8 !important;
-  border-color: #f3b3c8 !important;
-  color: #d81b60 !important;
+  background-color: #c1e2b3 !important; /* Slightly darker light green */
+  border-color: #c1e2b3 !important;
+  color: #1b7340 !important;
 }
 
 /* Improve spacing for buttons with icons */
@@ -54,16 +54,26 @@ html {
 /* Base body layout */
 body {
   margin-bottom: 60px;
-  background-color: #fff; /* default white bg for non-welcome pages */
+  background-color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
 }
+
+/*Move background image here */
+.background-wrapper {
+  background-image: url('https://i.pinimg.com/1200x/60/37/e9/6037e93c60ac082fd65e23af6cd26211.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 20px;
+}
+
 
 /* ----------------------------------------- */
 /* Scoped styles for the Welcome page only */
 /* ----------------------------------------- */
 
 .welcome-container {
-  background-color: #fff0f5; /* soft pink bg */
+  background-color: #f0fff0; /* Light mint green bg */
   min-height: calc(100vh - 60px); /* leaves space for navbar */
   display: flex;
   align-items: center;
@@ -83,7 +93,7 @@ body {
 
 .welcome-title {
   font-size: 2.5rem;
-  color: #e91e63;
+  color: #2e8b57; /* Forest green */
   margin-bottom: 1rem;
 }
 
@@ -94,7 +104,7 @@ body {
 }
 
 .start-button {
-  background-color: #e91e63;
+  background-color: #2e8b57; /* Forest green */
   color: white;
   padding: 0.75rem 1.5rem;
   border: none;
@@ -105,7 +115,7 @@ body {
 }
 
 .start-button:hover {
-  background-color: #d81b60;
+  background-color: #1b7340; /* Darker forest green */
 }
 
 /* ----------------------------------------- */
@@ -126,31 +136,31 @@ body {
 
 .diary-topbar h5 {
   font-size: 1.25rem;
-  color: #e91e63;
+  color: #2e8b57; /* Forest green */
   font-weight: 600;
   margin-bottom: 0.75rem;
 }
 
 .diary-topbar .btn {
-  background-color: #e91e63;
+  background-color: #2e8b57; /* Forest green */
   font-weight: 500;
   padding: 0.5rem 1.25rem;
   border: none;
 }
 
 .diary-topbar .btn:hover {
-  background-color: #d81b60;
+  background-color: #1b7340; /* Darker forest green */
 }
 
 .diary-entries-container {
   padding: 3rem 2rem;
-  background-color: #fff0f5;
+  background-color: #f0fff0; /* Light mint green */
   min-height: calc(100vh - 60px);
 }
 
 .diary-heading {
   font-size: 2rem;
-  color: #e91e63;
+  color: #2e8b57; /* Forest green */
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 600;
@@ -174,7 +184,7 @@ body {
 }
 
 .custom-diary-table thead th {
-  background: #ffe4ec;
+  background: #e8f5e9; /* Very light green */
   color: #333;
   padding: 0.75rem;
   border: none;
@@ -193,14 +203,15 @@ body {
   padding: 0.75rem;
   vertical-align: middle;
   color: #444;
-  border-top: 1px solid #f8d0de;
+  border-top: 1px solid #c8e6c9; /* Light green border */
 }
+
 /* ----------------------------------------- */
 /* Privacy Policy Page Styling */
 /* ----------------------------------------- */
 
 .privacy-container {
-  background-color: #fff0f5;
+  background-color: #f0fff0; /* Light mint green */
   min-height: calc(100vh - 60px);
   display: flex;
   align-items: center;
@@ -221,7 +232,7 @@ body {
 .privacy-title {
   font-size: 2.25rem;
   font-weight: bold;
-  color: #e91e63;
+  color: #2e8b57; /* Forest green */
   margin-bottom: 1.5rem;
 }
 
@@ -236,7 +247,7 @@ body {
 /* ----------------------------------------- */
 
 .write-entry-container {
-  background-color: #fff0f5;
+  background-color: #f0fff0; /* Light mint green */
   min-height: calc(100vh - 60px);
   display: flex;
   align-items: center;
@@ -256,7 +267,7 @@ body {
 .write-entry-heading {
   font-size: 1.75rem;
   font-weight: 600;
-  color: #e91e63;
+  color: #2e8b57; /* Forest green */
   margin-bottom: 1.5rem;
 }
 
@@ -265,9 +276,8 @@ body {
   color: #444;
 }
 
-
 .submit-entry-button {
-  background-color: #e91e63;
+  background-color: #2e8b57; /* Forest green */
   color: white;
   padding: 0.5rem 1.25rem;
   border: none;
@@ -278,13 +288,13 @@ body {
 }
 
 .submit-entry-button:hover {
-  background-color: #d81b60;
+  background-color: #1b7340; /* Darker forest green */
 }
 
 /* Custom undo button to match theme instead of red */
 .undo-entry-button {
-  background-color: #f8d0de;
-  color: #e91e63;
+  background-color: #dff0d8; /* Light green */
+  color: #2e8b57; /* Forest green */
   padding: 0.5rem 1.25rem;
   border: none;
   border-radius: 0.5rem;
@@ -297,6 +307,6 @@ body {
 }
 
 .undo-entry-button:hover {
-  background-color: #f3b3c8;
-  color: #d81b60;
+  background-color: #c1e2b3; /* Slightly darker light green */
+  color: #1b7340; /* Darker forest green */
 }
