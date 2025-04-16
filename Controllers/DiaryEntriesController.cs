@@ -89,6 +89,7 @@ namespace MyDiary.Controllers
         }
 
         [HttpPost]
+
         [Route("Edit/{id}")]
         public IActionResult Edit(DiaryEntry obj)
         {
@@ -119,5 +120,30 @@ namespace MyDiary.Controllers
             // If validation fails, return to the form with the model to show errors
             return View(obj);
         }
+
+        [Route("Delete/{id}")]
+        public IActionResult Delete(int? id) {
+
+            if(id == null || id == 0){
+                return NotFound();
+            }
+            DiaryEntry? diaryEntry = _db.DiaryEntries.Find(id);
+
+            if(diaryEntry == null){
+                return NotFound();
+            }
+
+            return View(diaryEntry);
+        }
+
+        [HttpPost]
+        [Route("Delete/{id}")]
+        public IActionResult Delete(DiaryEntry obj)
+        {
+                _db.DiaryEntries.Remove(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+        }
+
     }
 }
