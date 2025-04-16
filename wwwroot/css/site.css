@@ -19,6 +19,38 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+/* Override Bootstrap's primary button to match your theme */
+.btn-primary {
+  background-color: #e91e63;
+  border-color: #e91e63;
+  color: white;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #d81b60 !important;
+  border-color: #d81b60 !important;
+  color: white !important;
+}
+
+/* Override Bootstrap's danger button to match your theme */
+.btn-danger {
+  background-color: #f8d0de;
+  border-color: #f8d0de;
+  color: #e91e63;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+  background-color: #f3b3c8 !important;
+  border-color: #f3b3c8 !important;
+  color: #d81b60 !important;
+}
+
+/* Improve spacing for buttons with icons */
+.btn-sm svg {
+  margin-right: 4px;
+  vertical-align: text-top;
+}
+
 /* Base body layout */
 body {
   margin-bottom: 60px;
@@ -163,20 +195,6 @@ body {
   color: #444;
   border-top: 1px solid #f8d0de;
 }
-
-.entry-action {
-  color: #e91e63;
-  font-weight: 500;
-  text-decoration: none;
-  margin: 0 0.25rem;
-  transition: color 0.2s ease;
-}
-
-.entry-action:hover {
-  color: #d81b60;
-  text-decoration: underline;
-}
-
 /* ----------------------------------------- */
 /* Privacy Policy Page Styling */
 /* ----------------------------------------- */

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MyDiary.Data;
-using MYDIARY.Models;
+using MYDIARY.Models; // Fixed namespace casing consistency
 
 namespace MyDiary.Controllers
 {
@@ -44,16 +44,80 @@ namespace MyDiary.Controllers
         [Route("WriteEntries")]
         public IActionResult WriteEntries(DiaryEntry obj)
         {
-            if (!ModelState.IsValid)
+            // First check null to avoid null reference exceptions
+            if (obj == null)
             {
-                return View(obj);
+                return View();
             }
 
-            _db.DiaryEntries.Add(obj);
-            _db.SaveChanges();
+            // Custom validations
+            if (string.IsNullOrEmpty(obj.Title) || obj.Title.Length < 3)
+            {
+                ModelState.AddModelError("Title", "Title too short. Must be min 3 characters long.");
+            }
 
-            return RedirectToAction("Index");
+            if (string.IsNullOrEmpty(obj.Content) || obj.Content.Length < 20)
+            {
+                ModelState.AddModelError("Content", "Content too short. Must be min 20 characters long.");
+            }
+
+            // Check ModelState after all validations
+            if (ModelState.IsValid)
+            {
+                _db.DiaryEntries.Add(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            
+            // If validation fails, return to the form with the model to show errors
+            return View(obj);
         }
 
+        [Route("Edit/{id}")]
+        public IActionResult Edit(int? id) {
+
+            if(id == null || id == 0){
+                return NotFound();
+            }
+            DiaryEntry? diaryEntry = _db.DiaryEntries.Find(id);
+
+            if(diaryEntry == null){
+                return NotFound();
+            }
+
+            return View(diaryEntry);
+        }
+
+        [HttpPost]
+        [Route("Edit/{id}")]
+        public IActionResult Edit(DiaryEntry obj)
+        {
+            // First check null to avoid null reference exceptions
+            if (obj == null)
+            {
+                return View();
+            }
+
+            // Custom validations
+            if (string.IsNullOrEmpty(obj.Title) || obj.Title.Length < 3)
+            {
+                ModelState.AddModelError("Title", "Title too short. Must be min 3 characters long.");
+            }
+
+            if (string.IsNullOrEmpty(obj.Content) || obj.Content.Length < 20)
+            {
+                ModelState.AddModelError("Content", "Content too short. Must be min 20 characters long.");
+            }
+
+            // Check ModelState after all validations
+            if (ModelState.IsValid)
+            {
+                _db.DiaryEntries.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            // If validation fails, return to the form with the model to show errors
+            return View(obj);
+        }
     }
 }
