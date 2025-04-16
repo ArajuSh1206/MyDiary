@@ -39,5 +39,21 @@ namespace MyDiary.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        [Route("WriteEntries")]
+        public IActionResult WriteEntries(DiaryEntry obj)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(obj);
+            }
+
+            _db.DiaryEntries.Add(obj);
+            _db.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xwym1B8JVBV+zQlhIuEWK4LuFbph9jVGaAWRsomIg64=",
+  "Hash": "ZhPjdwFTqDU5Ly6AUhcSEMi+1dWIoMR7hv/an766qTs=",
   "Source": "MYDIARY",
   "BasePath": "_content/MYDIARY",
   "Mode": "Default",
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-yvkihad1rn.gz",
+      "Identity": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-htapudi22f.gz",
       "SourceId": "MYDIARY",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/MYDIARY",
-      "RelativePath": "css/site#[.{fingerprint=yvkihad1rn}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=htapudi22f}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zhyf6hz0z6",
-      "Integrity": "mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA=",
+      "Fingerprint": "0noakaq5oh",
+      "Integrity": "xIhSHiNofxOIpeYwJ+0sKOy8RtXvyWk1B/ATcd7WVe4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css"
@@ -1354,8 +1354,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yvkihad1rn",
-      "Integrity": "PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw=",
+      "Fingerprint": "htapudi22f",
+      "Integrity": "BdVWCNakhVVXDO27URdF2fRke7rTVQIAnuoJ5O0sAhU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -2603,12 +2603,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-yvkihad1rn.gz",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-htapudi22f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000778816199"
+          "Quality": "0.000716332378"
         }
       ],
       "ResponseHeaders": [
@@ -2618,15 +2618,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1283"
+          "Value": "1395"
         },
         {
           "Name": "ETag",
-          "Value": "\"mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA=\""
+          "Value": "\"xIhSHiNofxOIpeYwJ+0sKOy8RtXvyWk1B/ATcd7WVe4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
+          "Value": "Tue, 15 Apr 2025 22:40:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2646,13 +2646,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw=\""
+          "Value": "W/\"BdVWCNakhVVXDO27URdF2fRke7rTVQIAnuoJ5O0sAhU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw="
+          "Value": "sha256-BdVWCNakhVVXDO27URdF2fRke7rTVQIAnuoJ5O0sAhU="
         }
       ]
     },
@@ -2667,7 +2667,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4953"
+          "Value": "5683"
         },
         {
           "Name": "Content-Type",
@@ -2675,11 +2675,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw=\""
+          "Value": "\"BdVWCNakhVVXDO27URdF2fRke7rTVQIAnuoJ5O0sAhU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
+          "Value": "Tue, 15 Apr 2025 22:40:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2689,13 +2689,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw="
+          "Value": "sha256-BdVWCNakhVVXDO27URdF2fRke7rTVQIAnuoJ5O0sAhU="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-yvkihad1rn.gz",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-htapudi22f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2704,7 +2704,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1283"
+          "Value": "1395"
         },
         {
           "Name": "Content-Type",
@@ -2712,11 +2712,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA=\""
+          "Value": "\"xIhSHiNofxOIpeYwJ+0sKOy8RtXvyWk1B/ATcd7WVe4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
+          "Value": "Tue, 15 Apr 2025 22:40:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2734,18 +2734,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA="
+          "Value": "sha256-xIhSHiNofxOIpeYwJ+0sKOy8RtXvyWk1B/ATcd7WVe4="
         }
       ]
     },
     {
-      "Route": "css/site.yvkihad1rn.css",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-yvkihad1rn.gz",
+      "Route": "css/site.htapudi22f.css",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-htapudi22f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000778816199"
+          "Quality": "0.000716332378"
         }
       ],
       "ResponseHeaders": [
@@ -2755,15 +2755,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1283"
+          "Value": "1395"
         },
         {
           "Name": "ETag",
-          "Value": "\"mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA=\""
+          "Value": "\"xIhSHiNofxOIpeYwJ+0sKOy8RtXvyWk1B/ATcd7WVe4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
+          "Value": "Tue, 15 Apr 2025 22:40:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2783,13 +2783,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw=\""
+          "Value": "W/\"BdVWCNakhVVXDO27URdF2fRke7rTVQIAnuoJ5O0sAhU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yvkihad1rn"
+          "Value": "htapudi22f"
         },
         {
           "Name": "label",
@@ -2797,12 +2797,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw="
+          "Value": "sha256-BdVWCNakhVVXDO27URdF2fRke7rTVQIAnuoJ5O0sAhU="
         }
       ]
     },
     {
-      "Route": "css/site.yvkihad1rn.css",
+      "Route": "css/site.htapudi22f.css",
       "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2812,7 +2812,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4953"
+          "Value": "5683"
         },
         {
           "Name": "Content-Type",
@@ -2820,11 +2820,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw=\""
+          "Value": "\"BdVWCNakhVVXDO27URdF2fRke7rTVQIAnuoJ5O0sAhU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
+          "Value": "Tue, 15 Apr 2025 22:40:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2834,7 +2834,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yvkihad1rn"
+          "Value": "htapudi22f"
         },
         {
           "Name": "label",
@@ -2842,13 +2842,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PmOUNYCww6N+QaWQyNlc2QouiKpvxex301oTgyvnVXw="
+          "Value": "sha256-BdVWCNakhVVXDO27URdF2fRke7rTVQIAnuoJ5O0sAhU="
         }
       ]
     },
     {
-      "Route": "css/site.yvkihad1rn.css.gz",
-      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-yvkihad1rn.gz",
+      "Route": "css/site.htapudi22f.css.gz",
+      "AssetFile": "/Users/arajusharma/Desktop/untitled folder/MyDiary/obj/Debug/net9.0/compressed/e6tc5ipqpi-htapudi22f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2857,7 +2857,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1283"
+          "Value": "1395"
         },
         {
           "Name": "Content-Type",
@@ -2865,11 +2865,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA=\""
+          "Value": "\"xIhSHiNofxOIpeYwJ+0sKOy8RtXvyWk1B/ATcd7WVe4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:45:28 GMT"
+          "Value": "Tue, 15 Apr 2025 22:40:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2887,7 +2887,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yvkihad1rn"
+          "Value": "htapudi22f"
         },
         {
           "Name": "label",
@@ -2895,7 +2895,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mclbceWU/rC8xAhIma39/XVrBX0HjUlepScWZCYztlA="
+          "Value": "sha256-xIhSHiNofxOIpeYwJ+0sKOy8RtXvyWk1B/ATcd7WVe4="
         }
       ]
     },

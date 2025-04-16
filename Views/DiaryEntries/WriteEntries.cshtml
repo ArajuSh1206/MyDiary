@@ -19,7 +19,20 @@
                 <textarea asp-for="Content" class="form-control" rows="5" placeholder="Write your entry..."></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Save Entry</button>
+            <div class="form-group mb-3">
+                <label asp-for="CreatedAt" class="form-label">Created Date</label>
+                <input asp-for="CreatedAt" class="form-control" type="datetime-local" />
+                <span asp-validation-for="CreatedAt" class="text-danger"></span>
+            </div>
+
+            <div class="mt-3">
+                <button type="submit" class="submit-entry-button">Save Entry</button>
+                <a asp-controller="DiaryEntries" asp-action="Index" class="btn btn-danger ms-2">Undo Entry</a>
+            </div>
         </form>
     </div>
 </div>
+
+@section Scripts{
+    <partial name="__ValidationScriptsPartial" />
+}
