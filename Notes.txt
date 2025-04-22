@@ -205,12 +205,6 @@ Server: localhost,1433
 Authentication: SQL Login
 
 
-Username: sa
-
-
-Password: YourStrongPassword!
-
-
 Click Connect.
 
 
@@ -227,7 +221,7 @@ Connect:
 
  sh
 CopyEdit
-mssql-cli -S localhost -U sa -P YourStrongPassword!
+mssql-cli -S localhost -U sa -P pw
 
 
 Run:
@@ -252,12 +246,6 @@ Server: localhost,1433
 
 
 Authentication: SQL Login
-
-
-Username: sa
-
-
-Password: YourStrongPassword!
 
 
 Click Connect.
